@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devfest</title>
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Google Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--------------------------- ------HEADER ---------------------------------------->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-head">
+        <div class="container-fluid">
+          <div class="col-3 nav-center">
+            <a href="/"><img src="public/gdg-logo.svg" alt="" /></a>
+          </div>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="public/dropdown.svg" alt="" />
+          </button>
+          <div class="collapse navbar-collapse nav-center" id="navbarScroll">
+            <div class="col-5 navbar-elements">
+              <div class="navbar-nav">
+                <a class="nav-link" href="gdgbursa.com.tr">Devfest</a>
+                <a class="nav-link" href="gdgbursa.com.tr">Blog</a>
+                <a class="nav-link" href="gdgbursa.com.tr">Ekip</a>
+                <a class="nav-link" target="_blank" href="sponsorluk.html"
+                  >Sponsorluk</a
+                >
+                <a class="nav-link coupon" href="#"
+                  >Bilet Al
+                  <img class="ms-2" src="public/coupon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-4 acount navbar-nav">
+              <a class="nav-link me-5" href="#">İletişime Geç</a>
+              <a class="nav-link center" href="#"
+                >Hesap Aç
+                <img class="ms-2" src="public/mask.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--------------------------- ------HEADER ---------------------------------------->
+
+    <!--------------------------- ------MAIN ---------------------------------------->
+    <main class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="baslik">
+            Merhaba <br />
+            <i>
+              <span class="slash">//</span>
+              <span class="bursa">Bursa</span>
+            </i>
+          </h1>
+          <p class="paragraph">
+            Türkiye’nin en büyük
+            <span class="teknoloji-yazılım">teknoloji ve yazılım</span> <br />
+            etkinliğine katıl, sektöründen uzman isimlerin <br />
+            seminerlerine
+            <span>
+              <a class="katıl-baglanti" href="">katıl ve bağlantı kur.</a></span
+            >
+          </p>
+        </div>
+        <div class="col-md-6">
+          <video
+            class="video"
+            autoplay
+            loop
+            muted
+            src="./public/gdg-ses.mp4"
+          ></video>
+        </div>
+      </div>
+      <!-- <div class="container devfest">DEVFEST</div> -->
+      <div class="timer-container">
+        <div id="timer"></div>
+      </div>
+      <div class="container">
+        <h5>Bu serüvene hazır mısın</h5>
+        <div class="row konu-container">
+          <div class="col-lg-3 konu">
+            <div class="konu-table">
+              <div class="icon"><i class="fa-solid fa-code"></i></div>
+              <div class="konu-body">
+                <p class="konu-body-text">Yazılım ve Uygulama Geliştirme</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 konu1">
+            <div class="konu-table">
+              <div class="icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="konu-body">
+                <p class="konu-body-text yapay">Yapay Zeka</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 konu2">
+            <div class="konu-table">
+              <div class="icon"><i class="fa-solid fa-database"></i></div>
+              <div class="konu-body">
+                <p class="konu-body-text">Büyük veri ve Sosyal Medya</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 konu3">
+            <div class="konu-table">
+              <div class="icon"><i class="fa-solid fa-ranking-star"></i></div>
+              <div class="konu-body">
+                <p class="konu-body-text">Pazarlama, Seo ve Reklamcılık</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container container-body">
+        <div class="row">
+          <div class="col-5 card-left">
+            <div class="row katilimci-sayi" ></div>
+            <div class="row sponsor"> </div>
+            <div class="row konusmaci"></div>
+         </div>
+         <div class="col-6 card-right">
+           <div class="row instagram"></div>
+           <div class="row workshop"> </div>
+         </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--------------------------- ------MAIN ---------------------------------------->
+    <script
+      src="https://kit.fontawesome.com/b475947399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/timer.js"></script>
+  </body>
+</html>
