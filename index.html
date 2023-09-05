@@ -11,9 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Google Sans:wght@400;700&display=swap"
     />
     <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+    rel="stylesheet"
+    href="path/to/font-awesome/css/font-awesome.min.css"
+  />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -89,10 +89,9 @@
           <video
             class="video"
             autoplay
-            loop
-            muted
-            src="./public/gdg-ses.mp4"
-          ></video>
+          >
+          <source src="./public/gdg-ses.mp4">
+        </video>
         </div>
       </div>
       <!-- <div class="container devfest">DEVFEST</div> -->
@@ -102,7 +101,7 @@
       <div class="container">
         <h5>Bu serüvene hazır mısın</h5>
         <div class="row konu-container">
-          <div class="col-lg-3 konu">
+          <div class="col-lg-3 col-sm-6 konu">
             <div class="konu-table">
               <div class="icon"><i class="fa-solid fa-code"></i></div>
               <div class="konu-body">
@@ -110,7 +109,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 konu1">
+          <div class="col-lg-3 col-sm-6 konu1">
             <div class="konu-table">
               <div class="icon"><i class="fa-solid fa-brain"></i></div>
               <div class="konu-body">
@@ -118,7 +117,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 konu2">
+          <div class="col-lg-3 col-sm-6 konu2">
             <div class="konu-table">
               <div class="icon"><i class="fa-solid fa-database"></i></div>
               <div class="konu-body">
@@ -126,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 konu3">
+          <div class="col-lg-3 col-sm-6 konu3">
             <div class="konu-table">
               <div class="icon"><i class="fa-solid fa-ranking-star"></i></div>
               <div class="konu-body">
@@ -233,7 +232,7 @@
                   "
                 >
                   <img class="arrow-icon" src="./public/arrow.svg" alt="" />
-                  <div style="margin-top: 277px">
+                  <div class="insta-margin" style="margin-top: 277px">
                     <p class="sponsor-number">1.313</p>
                   </div>
                 </div>
@@ -252,7 +251,7 @@
                   </p>
                 </div>
                 <div
-                  class="col-3"
+                  class="col-4 "
                   style="
                     padding-left: 0 !important;
                     padding-right: 0 !important;
@@ -285,7 +284,7 @@
               <p id="bilet-list2" class="bilet-list"></p>
               <p id="bilet-list3" class="bilet-list"></p>
             </div>
-            <div class="col-6" style="padding-left: 135px">
+            <div class="col-6 price-left" style="padding-left: 135px">
               <p id="bilet-fiyat" class="bilet-fiyat"></p>
               <p id="kdv" class="bilet-kdv">KDV Dahildir</p>
               <p class="bilet-satin-al"><a href="">Satın Al</a></p>
@@ -360,16 +359,16 @@
       </div> -->
       <div class="container footer-container">
         <div class="row">
-          <div class="row col-6">
+          <div class="row col-6 form-auto">
             <input class="mail-input" type="text" placeholder="Ad Soyad">
             <input class="mail-input" type="text" placeholder="Konu">
             <!-- <input class="mail-input" type="text" placeholder="Neler düşünüyorsun..."> -->
             <textarea class="mail-textarea" id="textarea" placeholder="Neler düşünüyorsun..." cols="30" rows="5"></textarea>
-             <div >
+             <div class="form-btn">
               <button class="gonder-btn">Gönder</button>
              </div>
           </div>
-          <div class="col-6">
+          <div class="col-6 video2">
             <video class="video2" autoplay loop src="./public/search.mp4"></video>
           </div>
         </div>

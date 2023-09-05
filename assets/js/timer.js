@@ -1,6 +1,6 @@
 const year = new Date().getFullYear();
 const fourthOfJuly = new Date(year, 6, 4).getTime();
-const fourthOfJulyNextYear = new Date(year + 1, 6, 4).getTime();
+const fourthOfJulyNextYear = new Date(year + 1, 2, 2).getTime();
 const month = new Date().getMonth();
 
 // countdown
