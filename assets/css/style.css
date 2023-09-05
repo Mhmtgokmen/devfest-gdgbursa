@@ -287,6 +287,356 @@ h5 {
 .card-right {
   margin-left: 60px;
 }
+.katilimci-text {
+  position: relative;
+  font-size: 42.5px;
+  font-weight: 400;
+  font-family: "Google Sans";
+  color: #000;
+  text-align: left;
+  margin-top: 21px;
+  margin-left: 25px;
+}
+.etkinlik {
+  position: relative;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 25.5px;
+  font-family: "Google Sans";
+  color: #fff;
+}
+.katilimci-bilet {
+  font-weight: 500;
+  font-family: "Google Sans";
+  color: #fff;
+}
+
+.katilimci-text-body {
+  display: flex;
+  align-items: baseline;
+  text-align: right;
+  padding-left: 0 !important;
+  justify-content: space-evenly;
+}
+.arrow-icon {
+  margin-bottom: 13px;
+}
+/* .arrow-icon:hover {
+  content: url("/public/arrow-back.svg");
+} */
+.katilimci-number {
+  position: relative;
+  font-size: 101.03px;
+  letter-spacing: -0.04em;
+  font-family: "Google Sans";
+  color: #000;
+  text-align: left;
+}
+.sponsor-number {
+  position: relative;
+  font-size: 101.03px;
+  letter-spacing: -0.04em;
+  font-family: "Google Sans";
+  color: #000;
+  text-align: right;
+}
+.bilet-container {
+  margin-top: 130px;
+  border-radius: 29.58px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20.4px);
+  text-align: center;
+  height: 38vh;
+  padding-top: 10px;
+}
+.bilet-menu {
+  position: relative;
+  border-radius: 23.87px;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(59.68px);
+  margin-top: 30px;
+  margin-inline: 88px;
+  height: 80px;
+}
+.bilet-menu-body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.bilet-menu-btn {
+  height: 63.66px;
+  border: none;
+  font-size: 23px;
+  line-height: 47.75px;
+  font-weight: 400;
+  color: #161a0d;
+  padding-inline: 20px;
+}
+.selected-btn {
+  border-radius: 15.92px;
+  background-color: #f1b926;
+  box-shadow: -4.079545497894287px 7.139204502105713px 9.18px
+    rgba(0, 0, 0, 0.04);
+  color: #fdfff8;
+}
+.bilet-list {
+  position: relative;
+  font-size: 31.23px;
+  letter-spacing: -0.34px;
+  font-family: "Google Sans";
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+}
+.bilet-item-container {
+  margin-top: 36px;
+  margin-left: 50px;
+}
+.bilet-fiyat {
+  position: relative;
+  font-size: 70.27px;
+  letter-spacing: -0.77px;
+  line-height: 0%;
+  font-family: "Google Sans";
+  color: #000;
+  font-weight: bold;
+  padding-top: 36px;
+}
+.bilet-kdv {
+  position: relative;
+  font-size: 17.57px;
+  letter-spacing: -0.19px;
+  line-height: 136.2%;
+  font-family: "Google Sans";
+  color: #000;
+  padding-top: 20px;
+}
+.bilet-satin-al {
+  position: relative;
+  font-size: 23.46px;
+  text-decoration: underline;
+  letter-spacing: -0.26px;
+  line-height: 0%;
+  font-family: "Google Sans";
+  color: #000;
+  padding-top: 30px;
+}
+.bilet-satin-al a {
+  color: #000;
+  font-weight: bold;
+}
+.etkinlik-baslik {
+  margin-top: 130px;
+  position: relative;
+  font-size: 45.25px;
+  letter-spacing: 0.04em;
+  font-family: "Google Sans";
+  color: #fff;
+  text-align: center;
+}
+
+.mail-input {
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 50px;
+  border-bottom: 1px solid #eeeeee;
+  color: #fff;
+}
+.mail-textarea {
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid #eeeeee;
+  color: #fff;
+}
+.mail-input ::placeholder {
+  font-size: 28.49px;
+  letter-spacing: 0.02em;
+  font-family: "Google Sans";
+  color: #fff;
+  text-align: left;
+  opacity: 0.35;
+}
+.gonder-btn {
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  background-color: #119b5d;
+  overflow: hidden;
+  display: flex;
+  padding: 9px 55px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: 28.49px;
+  color: #ddd;
+  font-family: "Google Sans";
+  float: right;
+  margin-top: 40px;
+}
+.video2 {
+  margin-top: -70px;
+  height: 530px;
+  width: 100%;
+}
+.sponsorluk-baslik {
+  margin-top: 100px;
+  font-size: 45.25px;
+  letter-spacing: 0.04em;
+  font-family: "Google Sans";
+  color: #fff;
+  text-align: center;
+}
+.footer-container {
+  margin-top: 60px;
+}
+.example-centered {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.timeline {
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.timeline-title {
+  color: #fff;
+}
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 {
+  line-height: inherit;
+}
+
+/*----- TIMELINE ITEM -----*/
+.timeline-item {
+  padding-left: 40px;
+  position: relative;
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/*----- TIMELINE INFO -----*/
+.timeline-info {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 0.5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #fff;
+}
+
+/*----- TIMELINE MARKER -----*/
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+.timeline-marker:before {
+  background: #ff6b6b;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #ccd5db;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid #ff6b6b;
+}
+.timeline-centered,
+.timeline-centered .timeline-item,
+.timeline-centered .timeline-info,
+.timeline-centered .timeline-marker,
+.timeline-centered .timeline-content {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.timeline-centered .timeline-item {
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.timeline-centered .timeline-marker {
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5px;
+}
+.timeline-centered .timeline-info,
+.timeline-centered .timeline-content {
+  width: 50%;
+}
+.timeline-centered > .timeline-item:nth-child(odd) .timeline-info {
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(odd) .timeline-content {
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(even) .timeline-info {
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+.timeline-centered > .timeline-item:nth-child(even) .timeline-content {
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+}
+.timeline-centered > .timeline-item.period .timeline-content {
+  float: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.timeline-centered .timeline-item.period {
+  padding: 50px 0 90px;
+}
+.timeline-centered .period .timeline-marker:after {
+  height: 30px;
+  bottom: 0;
+  top: auto;
+}
+.timeline-centered .period .timeline-title {
+  left: auto;
+}
+
 @media only screen and (max-width: 768px) {
   nav {
     margin: 1rem 1rem;
